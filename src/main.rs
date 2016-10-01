@@ -13,7 +13,7 @@ fn main() {
     loop {
         let mut guess = String::new();
 
-        println!("The secret number is: {}", secret_number);
+        // println!("The secret number is: {}", secret_number);
 
         io::stdin().read_line(&mut guess)
         .expect("Failed to read input");
